@@ -26,11 +26,11 @@ export PAPERLESS_CONSUMPTION_DIR=/share/paperless/consume
 export PAPERLESS_DATA_DIR=/share/paperless/data
 export PAPERLESS_MEDIA_ROOT=/share/paperless/media
 
-mkdir -p $PAPERLESS_CONSUMPTION_DIR
-mkdir -p $PAPERLESS_DATA_DIR
-mkdir -p $PAPERLESS_MEDIA_ROOT
+# mkdir -p $PAPERLESS_CONSUMPTION_DIR
+# mkdir -p $PAPERLESS_DATA_DIR
+# mkdir -p $PAPERLESS_MEDIA_ROOT
 
-sudo chmod -R 777 /share/paperless
+# sudo chmod -R 777 /share/paperless
 
 
 # Source: https://github.com/sameersbn/docker-gitlab/
