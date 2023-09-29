@@ -111,10 +111,10 @@ COPY scripts/docker-prepare.sh /sbin/docker-prepare.sh
 WORKDIR /usr/src/paperless
 
 # add users, setup scripts
-RUN addgroup --gid 1000 paperless \
-    && useradd --uid 1000 --gid paperless --home-dir /usr/src/paperless paperless \
+RUN addgroup --gid 0 paperless \
+    && useradd --uid 0 --gid paperless --home-dir /usr/src/paperless paperless \
     && chown -R paperless:paperless . \
-    && chmod 755 /sbin/docker-entrypoint.sh
+    && chmod 777 /sbin/docker-entrypoint.sh
 
 WORKDIR /usr/src/paperless/src/
 
