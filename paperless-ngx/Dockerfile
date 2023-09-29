@@ -114,7 +114,7 @@ WORKDIR /usr/src/paperless
 RUN addgroup --gid 1000 paperless \
     && useradd --uid 1000 --gid paperless --home-dir /usr/src/paperless paperless \
     && chown -R paperless:paperless . \
-    && chmod 777 /sbin/docker-entrypoint.sh
+    && chmod 755 /sbin/docker-entrypoint.sh
 
 WORKDIR /usr/src/paperless/src/
 
