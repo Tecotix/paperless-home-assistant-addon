@@ -4,7 +4,7 @@ _Paperless is an application that manages your personal documents. With the help
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
+SN The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
 1. Add Add this URL to your Home Assistant addons repos (Supervisor -> Add-on store -> three dots upper right): `https://github.com/Rudertier/paperless-home-assistant-addon`
